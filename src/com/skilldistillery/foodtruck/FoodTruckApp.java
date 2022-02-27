@@ -13,7 +13,7 @@ public class FoodTruckApp {
 
 		for (int i = 0; i < foodTrucks.length; i++) {
 
-			System.out.println("Please input the name of the food truck: ");
+			System.out.println("Please input the name of the food truck: (Input quit to exit)");
 			ftName = sc.next();
 
 			if (ftName.equals("quit")) {
@@ -84,7 +84,7 @@ public class FoodTruckApp {
 					}
 
 					System.out.println(
-							"The highest rating is " + foodTrucks[counter].toString());
+							"The highest rated truck is " + foodTrucks[counter].toString());
 					break;
 
 				case 4:

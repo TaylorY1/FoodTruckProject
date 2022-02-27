@@ -13,7 +13,7 @@ public class FoodTruckApp {
 
 		for (int i = 0; i < foodTrucks.length; i++) {
 
-			System.out.println("Please input the name of the food truck: (Input quit to exit)");
+			System.out.println("Please input the name of the food truck: (Input 'quit' to move to the next menu)");
 			ftName = sc.next();
 
 			if (ftName.equals("quit")) {
